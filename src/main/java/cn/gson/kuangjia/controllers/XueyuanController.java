@@ -23,9 +23,6 @@ public class XueyuanController {
 		model.addAttribute("order", us.findAll());
 //		model.addAttribute("od", us.findAll1());
 	}
-	//阿斯蒂芬
-	@RequestMapping("hospitalized")
-	public void hospitalized() {
-	}
+	
 	
 }
